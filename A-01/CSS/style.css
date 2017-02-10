@@ -7,12 +7,17 @@ h1 {
 
     font: 3.5em damion, center;
   
-  
+  }
+
 h2 {
    font: 2em damion, center, black;
 }
   
-p {
+p.1 {
     font-family: Roboto, 100%;
-   
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
