@@ -17,7 +17,7 @@ p.1 {
     font-family: Roboto, 100%;
     background-color: lightgrey;
     width: 300px;
-    border: 25px solid green;
+    border: 25px lightblue;
     padding: 25px;
     margin: 25px;
 }
