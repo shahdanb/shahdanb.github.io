@@ -2,7 +2,7 @@ body {
     background-color: white;
 }
 
-
+<style> 
 h1 {
 
     font: 3.5em damion, center;
@@ -13,7 +13,8 @@ h2 {
    font: 2em damion, center, black;
 }
   
-p.1 {
+.1 {
+     -webkit-columns: 100px 2; 
     font-family: Roboto, 100%;
     background-color: lightgrey;
     width: 300px;
