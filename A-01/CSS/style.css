@@ -13,7 +13,7 @@ h2 {
    font: 2em damion, center, black;
 }
   
-.1 {
+div.1 {
      -webkit-columns: 100px 2; 
     font-family: Roboto, 100%;
     background-color: lightgrey;
