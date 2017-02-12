@@ -1,24 +1,43 @@
-body {
-    background-color: white;
+<html>
+<head>
+<style>
+
+.newspaper {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
-<style> 
+.newspaper1 {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+}
+
+
 h1 {
 
-    font: 3.5em damion, center;
-  
+    font: 3.5em damion;
+    text-align: center;
   }
+  
 
 h2 {
-   font: 2em damion, center, black;
+   font: 2em damion;
+   text-align: center;
 }
-  
-div.1 {
-     -webkit-columns: 100px 2; 
-    font-family: Roboto, 100%;
+
+ p {
+    font: Roboto;
+    text-align: center;
+ padding: 0cm 3cm 0cm 3cm;
+ }
+ 
+div {
     background-color: lightgrey;
-    width: 300px;
-    border: 25px lightblue;
-    padding: 25px;
+     text-align: justify;
+    width: 500px;
+    hight: 500px;
+    padding:20px 30px 20px 30px;
     margin: 25px;
 }
