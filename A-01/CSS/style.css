@@ -2,42 +2,225 @@
 <head>
 <style>
 
-.newspaper {
+
+
+.newspaper1 {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
-}
+    font: 1em Roboto;
+     text-align: justify;
+     column-gap: 40px;
+   }
 
-.newspaper1 {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-}
+   .newspaper3 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font: 1em Roboto;
+     text-align: justify;
+     column-gap: 40px;
+   }
 
+   .newspaper4 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font: 1em Roboto;
+     text-align: justify;
+     column-gap: 40px;
+   }
+
+.newspaper5 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font: 1em Roboto;
+     text-align: justify;
+     column-gap: 35px;
+     
+   }
+   
+.newspaper2 {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    font: 1em Roboto;
+     text-align: justify;
+     column-gap: 40px;
+   }
+   
+div.newspaper2 {
+
+    background-color: rgba(33, 122, 190, 0.4);
+    height: 320px;
+    padding:150px 300px 100px 300px;
+
+   }
+
+div.newspaper3 {
+
+    background-color: rgba(137, 168, 181, 0.6);
+    height: 420px;
+    padding:100px 300px 100px 300px;
+   }
+
+div.newspaper4 {
+
+    background-color: rgba(209, 219, 222, 0.8);
+    height: 420px;
+    padding:150px 300px 100px 300px;
+   }
+
+div.newspaper5 {
+
+    background-color: white;
+    height: 420px;
+    padding:150px 181px 100px 181px;
+
+   }
+
+div.newspaper6 {
+
+    background-color: rgba(137, 168, 181, 0.6);
+    height: 420px;
+    padding:100px 300px 100px 300px;
+   }
 
 h1 {
 
-    font: 3.5em damion;
+    font: 4em damion;
     text-align: center;
   }
+
+  hr { 
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
+
+
+  ul  {
+  text-align: center;
   
+   
+}
+
+li {
+  display: inline;
+     font: 1.2em damion;
+     
+    
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+a {
+  text-decoration: none;
+  padding: 11.5%;
+  
+}
+
+a:hover { /* pseudo-class */
+   color: rgba(33, 122, 190, 0.4);
+}
+
+a:active {
+  color: rgba(33, 122, 190, 0.4);
+    }
 
 h2 {
-   font: 2em damion;
+   font: 2.5em damion;
    text-align: center;
+   -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+
 }
 
+h3 {
+   font: 2.5em damion;
+   text-align: center;
+
+   }
+
  p {
-    font: Roboto;
-    text-align: center;
- padding: 0cm 3cm 0cm 3cm;
+    font: 1em Roboto;
+    text-align: justify;
+    -moz-text-align-last: center; /* Code for Firefox */
+    text-align-last: center;
+    line-height: 1.5em;
+    padding:40px 400px 100px 400px;
+   background-color: rgba(137, 168, 181, 0.6);
+   margin: 0%;
  }
  
-div {
-    background-color: lightgrey;
-     text-align: justify;
-    width: 500px;
-    hight: 500px;
-    padding:20px 30px 20px 30px;
-    margin: 25px;
+ #h4 {
+    font: 2.5em damion;
+    text-align: center;
+     padding:100px 3cm 0px 3cm;
+ }
+
+
+  img {
+  width: 100%;
+  }
+
+
+  .img  {
+  display: inline;
+  width: 30%;
+  }
+
+
+
+.img1 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+     column-gap: 40px;
+     margin: 100px;
+
+   }
+
+.img2 {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+     column-gap: 40px;
+     margin: 100px;
+     height: 400px;
+    
+   }
+
+   .desc {
+    font: 1.2em damion;
+     column-gap: 40px;
+     text-align: left;
+    
+   }
+
+div.img:hover {
+   opacity: 0.5;
 }
+
+div.img img {
+    width: auto;
+    height: auto;
+    display: inline;
+}
+
+div.desc {
+    padding: 20px;
+    margin: 10px,30px,10px,30px;
+}
+
+footer {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
