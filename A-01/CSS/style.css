@@ -1,102 +1,117 @@
-<html>
-<head>
-<style>
+
+@import url('https://fonts.googleapis.com/css?family=Damion|Roboto');
 
 
-
-.newspaper1 {
+.newspaper1 
+    {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
     font: 1em Roboto;
-     text-align: justify;
-     column-gap: 40px;
+    text-align: justify;
+    line-height: 1.5em;
+    column-gap: 40px;
    }
 
-   .newspaper3 {
+.newspaper3 
+   {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
     font: 1em Roboto;
-     text-align: justify;
-     column-gap: 40px;
+    text-align: justify;
+    line-height: 1.5em;
+    column-gap: 40px;
    }
 
-   .newspaper4 {
+.newspaper4 
+   {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
     font: 1em Roboto;
-     text-align: justify;
-     column-gap: 40px;
+    text-align: justify;
+    line-height: 1.5em;
+    column-gap: 40px;
    }
 
-.newspaper5 {
+.newspaper5 
+   {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
-    font: 1em Roboto;
-     text-align: justify;
-     column-gap: 35px;
+   font: 1em Roboto;
+   text-align: justify;
+   line-height: 1.5em;
+   column-gap: 35px;
      
    }
-   
-.newspaper2 {
+
+.newspaper2 
+   {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
     font: 1em Roboto;
-     text-align: justify;
-     column-gap: 40px;
+    text-align: justify;
+    line-height: 1.5em;
+    column-gap: 40px;
+
    }
    
-div.newspaper2 {
+div.newspaper2 
+    {
 
     background-color: rgba(33, 122, 190, 0.4);
-    height: 320px;
+    height: 430px;
     padding:150px 300px 100px 300px;
 
    }
 
-div.newspaper3 {
+div.newspaper3 
+   {
 
     background-color: rgba(137, 168, 181, 0.6);
-    height: 420px;
+    height: 530px;
     padding:100px 300px 100px 300px;
+
    }
 
-div.newspaper4 {
-
+div.newspaper4 
+  {
     background-color: rgba(209, 219, 222, 0.8);
-    height: 420px;
+    height: 530px;
     padding:150px 300px 100px 300px;
    }
 
 div.newspaper5 {
 
     background-color: white;
-    height: 420px;
-    padding:150px 181px 100px 181px;
+     height: 530px;
+      padding:150px 181px 100px 181px;
 
    }
 
 div.newspaper6 {
 
     background-color: rgba(137, 168, 181, 0.6);
-    height: 420px;
-    padding:100px 300px 100px 300px;
+     height: 530px;
+      padding:100px 300px 100px 300px;
+
    }
+
 
 h1 {
 
     font: 4em damion;
-    text-align: center;
+     text-align: center;
   }
 
   hr { 
+
     display: block;
-    margin-top: 0em;
-    margin-bottom: 2em;
+     margin-top: 0em;
+      margin-bottom: 2em;
   }
 
 
@@ -132,6 +147,7 @@ a:active {
   color: rgba(33, 122, 190, 0.4);
     }
 
+
 h2 {
    font: 2.5em damion;
    text-align: center;
@@ -153,14 +169,14 @@ h3 {
     text-align-last: center;
     line-height: 1.5em;
     padding:40px 400px 100px 400px;
-   background-color: rgba(137, 168, 181, 0.6);
-   margin: 0%;
+    background-color: rgba(137, 168, 181, 0.6);
+    margin: 0%;
  }
  
  #h4 {
     font: 2.5em damion;
-    text-align: center;
-     padding:100px 3cm 0px 3cm;
+     text-align: center;
+      padding:100px 3cm 0px 3cm;
  }
 
 
@@ -170,8 +186,8 @@ h3 {
 
 
   .img  {
-  display: inline;
-  width: 30%;
+   display: inline;
+    width: 30%;
   }
 
 
@@ -180,8 +196,8 @@ h3 {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-     column-gap: 40px;
-     margin: 100px;
+      column-gap: 40px;
+       margin: 100px;
 
    }
 
@@ -189,16 +205,16 @@ h3 {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-     column-gap: 40px;
-     margin: 100px;
-     height: 400px;
+      column-gap: 40px;
+       margin: 100px;
+        height: 400px;
     
    }
 
    .desc {
     font: 1.2em damion;
      column-gap: 40px;
-     text-align: left;
+      text-align: left;
     
    }
 
@@ -208,8 +224,8 @@ div.img:hover {
 
 div.img img {
     width: auto;
-    height: auto;
-    display: inline;
+     height: auto;
+      display: inline;
 }
 
 div.desc {
